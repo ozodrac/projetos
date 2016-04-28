@@ -1,0 +1,589 @@
+body {
+    display: block;
+}
+
+.foto-home {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.foto_miss{
+  float: left;
+}
+
+.mi{
+  clear: both;
+}
+
+.frami{
+text-align: center;
+ margin: 1em 5em;
+ font-size: 30px;
+ position: relative;
+ top: 54px;
+ font-family: 'Montserrat', sans-serif;
+}
+
+.botao-index {
+    font-size: 1.25em;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #e47107;
+    color: #FFF;
+    padding: .5em;
+    /*border: .2em solid black;*/
+    width: 11ch;
+    margin: 1em auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: .5s;
+}
+.botao-index:focus,
+.botao-index:hover {
+    background-color: #a63956;
+    color: white;
+    box-shadow: 0 0 1em #FA9;
+}
+
+.botao-index-b{
+  font-size: 0.99em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  background-color: #0781E4;
+  color: #FFF;
+  padding: .5em;
+  /*border: .2em solid black;*/
+  width: 10ch;
+  margin: 1em auto;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  transition: .5s;
+  }
+
+  .botao-index-b:focus,
+  .botao-index-b:hover {
+      background-color: #a63956;
+      color: white;
+      box-shadow: 0 0 1em #FA9;
+      }
+
+
+hr{
+    max-width: 400px;
+
+    margin-bottom: 20px;
+    border: 0;
+    height: 0;
+    margin-top: 20px;
+    display: block;
+    border-top: 1px solid #aaa1a1;
+
+    }
+
+.subtitulo {
+text-align: center;
+font-family: 'Poiret One', cursive;
+font-size: 35px;
+font-weight:lighter;
+
+}
+
+.frase {
+    padding: 2em;
+}
+.frase h2 {
+    font-size: 1.5em;
+    /*text-transform: uppercase;*/
+    margin-bottom: .5em;
+    /*text-shadow: 2px 2px #000;*/
+    text-align: center;
+    color: #f19232;
+    font-family: 'Indie Flower', cursive;
+}
+.frase {
+    background-color: #af1641;
+
+}
+.frase p{
+  font-size: 1em;
+  color: white;
+}
+
+footer {
+    background-color: #333f4e;
+    color: #FFF;
+    padding: 2em;
+}
+footer h2 {
+    font-size: 3em;
+}
+
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}
+html,body {
+    overflow-x: hidden;
+    height: 100%;
+}
+body {
+    -webkit-perspective: 6px;
+            perspective: 6px;
+    -webkit-perspective-origin: 50% 160px;
+            perspective-origin: 50% 160px;
+}
+
+/*********************************************************************************/
+/* header                                                                      */
+/*********************************************************************************/
+
+
+.palavras-home {
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+}
+.palavra-home {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    font-size: 400%;
+    color: rgba(255, 227, 128, 0.5);
+    position: absolute;
+    -webkit-animation: aparece 2s;
+            animation: aparece 2s;
+}
+.ser {
+    top: 44%;
+    left: 59%;
+    -webkit-transform: translate(-50%, -50%) translateZ(4px) rotate(5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
+}
+.energia {
+    top: 47%;
+    left: 20%;
+    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(1px) rotate(10deg) scale(.25);
+    opacity: .3;
+}
+.deus {
+    top: 33%;
+    left: 24%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg) scale(.25);
+    opacity: .6;
+}
+.consciencia {
+    top: 53%;
+    left: 33%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(5deg) scale(.25);
+    opacity: .6;
+}
+.amizade {
+    top: 26%;
+    left: 65%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+    opacity: .6;
+}
+
+.vida {
+    top: 15%;
+    left: 60%;
+    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
+}
+.harmonia {
+    top: 25%;
+    left: 35%;
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.29);
+    opacity: .8;
+}
+.paz {
+    top: 40%;
+    left: 40%;
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.25);
+    opacity: .8;
+}
+.espirito {
+    top: 39%;
+    left: 70%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg) scale(.25);
+    opacity: .6;
+}
+.amor {
+    top: 26%;
+    left: 31%;
+    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(1px) rotate(5deg) scale(.31);
+    opacity: .3;
+}
+.alegria {
+    top: 39%;
+    left: 61%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+    opacity: .6;
+}
+.titulo-principal {
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    position: relative;
+    background-color: #FF5722;
+
+
+}
+.titulo-principal h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40px;
+
+}
+
+/*********************************************************************************/
+/* header-wrapper                                                                       */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+		overflow: hidden;
+		padding: 5em 0em 0em 0em;
+		background: #FFC000 url(images/overlay.png) repeat;
+	}
+
+
+
+#triangle-up {
+
+	margin: 0 auto;
+	width: 0;
+	height: 0;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-bottom: 30px solid #3D3D3D;
+  padding-top: 50px;
+
+}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu-wrapper
+	{
+		background: #3D3D3D;
+    position: relative;
+    bottom: 2.5em;
+	}
+
+	#menu
+	{
+		margin: 0px auto;
+	}
+
+	#menu ul
+	{
+		text-align: center;
+	}
+
+	#menu li
+	{
+		display: inline-block;
+	}
+
+  #menu li:hover {
+    background: #2f2f2f;
+  }
+
+	#menu li a, #menu li span
+	{
+		display: inline-block;
+		margin-left: 0.50em;
+		padding: 2em 1.5em 1em 1.5em;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		font-size: 0.90em;
+		font-weight: 600;
+		text-transform: uppercase;
+		outline: 0;
+		color: #FFF;
+	}
+
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+	}
+
+	#menu .current_page_item a
+	{
+		color: #FFF;
+	}
+
+  a:hover
+  {
+  	text-decoration: none;
+  }
+
+  /*********************************************************************************/
+  /* Serviços                                                                        */
+  /*********************************************************************************/
+
+  .Servicos{
+    position: relative;
+    top: -15px;
+  }
+
+  /*********************************************************************************/
+  /* Three Columns                                                                 */
+  /*********************************************************************************/
+    .container
+  	{
+  		margin: 0px auto;
+  		width: 1200px;
+      display: flex;
+
+  	}
+
+    .container p
+    {
+      font-family: 'Varela', sans-serif;
+      font-size: 11pt;
+      font-weight: 300;
+      color: #656565;
+      text-align: center;
+      line-height: 170%;
+
+    }
+
+    .img1,
+    .img2,
+    .img3{
+      border: 1px solid rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+
+    .p_three {
+    text-align: justify;
+    margin: 1em -1em;
+    }
+
+  	#three-column
+  	{
+  		overflow: hidden;
+  		margin-top: -3em;
+  		padding-top: 1em;
+  		/*border-top: 1px solid rgba(0,0,0,0.2);*/
+  		text-align: center;
+  	}
+
+  	#three-column h2
+  	{
+  		margin: 1em 0em;
+  		font-size: 1.5em;
+  		font-weight: 700;
+      font-family: 'Josefin Sans', sans-serif;
+
+  	}
+
+  	#three-column .icon
+  	{
+  		position: relative;
+  		display: block;
+  		margin: 0px auto 0.80em auto;
+  		background: none;
+  		line-height: 150px;
+  		font-size: 4em;
+  		width: 150px;
+  		height: 150px;
+  		border-radius: 100px;
+  		border: 6px solid #67128F;
+  		text-align: center;
+  		color: #FFF;
+
+  	}
+
+  	#three-column #tbox1,
+  	#three-column #tbox2,
+  	#three-column #tbox3
+  	{
+  		float: left;
+  		width: 320px;
+  		padding: 80px 40px 20px 40px;
+  	}
+
+    .box{
+      display: flex;
+      flex-direction: column;
+      flex:1;
+    }
+
+    .box p{
+      flex:1; 
+
+    }
+
+
+
+  	#three-column .title
+  	{
+  		text-align: center;
+  	}
+
+  	#three-column .title h2
+  	{
+  		font-size: 1.60em;
+  	}
+
+  	#three-column .title .byline
+  	{
+  		padding-top: 0.50em;
+  		font-size: 0.90em;
+  		color: #858585;
+  	}
+
+/*********************************************************************************/
+/* Missao                                                                        */
+/*********************************************************************************/
+
+.Missao {
+  position: relative;
+  top:28px;
+
+}
+
+/*********************************************************************************/
+/* Sobre                                                                         */
+/*********************************************************************************/
+
+
+.Sobre {
+
+  background-color: #1b7038;
+  position: relative;
+  top: 20px;
+  height:150%;
+}
+
+.div_sobre {
+  position: relative;
+  top: 29px;
+
+}
+
+.div_sobre p {
+  font-family: 'Varela', sans-serif;
+  color: white;
+  font-size: 18px;
+
+}
+
+.div_sobre h2{
+  color: white;
+}
+
+.p_sobre {
+  text-align: justify;
+  margin: 3em 10em;
+
+}
+
+/*********************************************************************************/
+/* contato                                                                       */
+/*********************************************************************************/
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+.formula {
+  background: #333f4e;
+}
+
+form {
+  max-width: 420px;
+  margin: 50px auto;
+}
+
+.feedback-input {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 5px;
+  line-height: 15px;
+  background-color: transparent;
+  border: 1px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid #CC4949;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: #CC6666;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 19px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+
+[type="submit"]:hover {
+  background: #CC4949;
+}
+
+
+
+
+@-webkit-keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
+}
+@keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
+}
+@keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
+}
+@-webkit-keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
+}
