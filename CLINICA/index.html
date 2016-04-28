@@ -19,7 +19,7 @@
     <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-    <!-- <script type="text/javascript" src="js/scripts.js" > </script> -->
+    <!-- scripts -->
     <script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" src="js/sweetalert2.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/sweetalert2.css">
@@ -147,15 +147,15 @@
       <hr>
         <h2 class="subtitulo"> Contato </h2>
       <hr>
-      <form id="formulario" class="formula" name="formulario" action="#" method="post" onsubmit="return validar()" >
+      <form id="formulario" class="formula" name="formulario" method="post" onsubmit="return validar();" >
 
 
         <input name="nome" id="nome" type="text" class="feedback-input" placeholder="Nome" />
 
 
-        <input name="email" type="text" class="feedback-input" placeholder="Email" />
+        <input name="email" id="email" type="text" class="feedback-input" placeholder="Email" />
 
-        <textarea name="msg" class="feedback-input" placeholder="Mensagem"></textarea>
+        <textarea name="msg" id="msg" class="feedback-input" placeholder="Mensagem"></textarea>
 
         <input type="submit" value="ENVIAR"  />
       </form>
